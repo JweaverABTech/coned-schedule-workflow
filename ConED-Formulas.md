@@ -3,7 +3,7 @@
 > Double click inside the code blocks below to select the entire formula, then Copy/Paste into the appropriate Excel column.
 
 ### Long Description Duplicate (Column E, row 2):
-    =IF(ISBLANK(A2),"",IF(D2=D1,"<"&LEFT(A2,2)&"><offering aid:pstyle=""times"">"&S2&", "&T2&", "&U2&", "&K2&"" &CHAR(13)&IF(OR(L2="Lower Level",L2="Webinar"),L2,"RM "&L2)&", "&M2&", "&N2&CHAR(13)&"<fees aid:pstyle=""fees"">Fees: Course: "&IF(OR(O2="FREE",O2="Waived"),O2,DOLLAR(O2,0))&""&V2&"</fees></offering></"&LEFT(A2,2)&">",""))
+    =IF(ISBLANK(A2),"",IF(D2=D1,"<"&LEFT(A2,2)&"><offering aid:pstyle=""times"">"&S2&", "&T2&", "&U2&", "&K2&"" &CHAR(13)&IF(OR(L2="Lower Level",L2="Webinar"),L2,"RM "&L2)&", "&M2&", "&N2&CHAR(13)&"<fees aid:pstyle=""fees"">Fees: Course: "&IF(OR(O2="FREE",O2="Waived"),O2,DOLLAR(O2,2))&""&V2&"</fees></offering></"&LEFT(A2,2)&">",""))
 
 ### Days of the Week (Column S, row 1):
 
